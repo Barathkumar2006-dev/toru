@@ -1,0 +1,161 @@
+/* genral content */
+
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+
+
+body{min-height:250vh;}  
+
+/* main-content */
+
+
+.main-head li{color:gray;
+           list-style-type:none;
+           cursor:pointer;
+           font-size:0.9rem;
+           text-transform:uppercase;
+           letter-spacing:1.5;
+           font-family:'poppins',sans-serif;
+           font-weight:700;
+           display:inline-block;
+           margin-inline:60px;
+}
+
+.main-head{text-align:center;}
+
+.main-head .nav-bar li{padding:3% 0;
+}
+
+
+
+/*  
+.cover{
+    height:100vh;
+    width:100%;
+    background:url(pre.avif);
+    background-size:cover;}
+*/
+.hero-page .text-content h1{font-size:8rem;
+                         letter-spacing:1.5px;
+                         font-weight:700;
+                         z-index:1;
+                         font-family: "Rubik", sans-serif;
+                         text-transform:capitalize;
+                         color:black;
+}
+
+
+.hero-page .text-content p{font-size:1rem;
+                           font-weight:700;
+                           text-transform:capitalize;
+                           color:black;
+                           transform:translateX(20px);
+                           font-family: "Rubik", sans-serif;
+                           line-height:25px;
+                           letter-spacing:1px;
+}
+
+
+.main-button button{padding:15px 40px;
+                    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight:700;
+                    color:whitesmoke;
+                    margin:0 15px;
+                    text-transform:capitalize;
+                    border-radius:35px;
+                    font-size:1rem;
+                    cursor:pointer;
+                    background:black;
+                    border:none;
+}
+
+.nav-bar li:nth-child(3){background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%);
+                      background-clip:text;
+                      color:transparent;}
+
+.main-button .about-me{background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%);
+                       color:whitesmoke;}
+
+.color{background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%);
+       background-clip:text;
+       color:transparent;}
+
+
+.cover{background-color:#E7FBE6;}
+
+.hero-page{display:flex;
+           align-items:center;
+           justify-content:space-between;
+           padding:7% 5%;
+}
+
+.second-section h1{font-size:4rem;
+                   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                   font-weight:700;
+                   text-transform:capitalize;}
+
+
+.second-section{padding:5% auto;
+               min-height:80vh;
+               background:#E7FBE6;}
+
+
+
+/* repsonsive works start here */
+
+@media screen and (max-width:1358px)
+{
+
+
+.hero-page{display:flex;
+           align-items:center;
+           flex-direction:column;
+           gap:2rem;
+           margin:0 3%;
+           text-align:center;
+           justify-content:center;}  
+
+
+.image-de{margin:0 30px;
+         max-width:400px;}
+
+
+}
+
+
+/* repsonive media query for lap tab mobile  font-size */
+
+@media screen and (max-width:1358px)
+{
+
+.hero-page .text-content h1{font-size:5.5rem;}
+
+
+}
+
+@media screen and (max-width:683px)
+{
+
+.hero-page .text-content h1{font-size:3.5rem;}
+
+.hero-page .text-content p{font-size:0.9rem;}
+
+}
+
+@media screen and (max-width:604px)
+{
+
+.main-head .nav-bar li{margin-inline:40px;}
+
+.main-head .nav-bar li{padding:6% 0;
+}
+
+}
+
+@media screen and (max-width:467px)
+{
+
+.main-head .nav-bar li{margin-inline:20px;}
+
+}
